@@ -37,7 +37,7 @@ window.onload = function musichtml(){
 				oPaly.className = "play iconfont Iconfont icon-zanting";
 				oPaly.title = "播放";
 			}
-		},500)
+		},200)
 	}
 	/* 更新信息 */
 	function update(){
@@ -88,7 +88,7 @@ window.onload = function musichtml(){
 			clearInterval(real);
 			oTimer();
 			progress();
-		},500);
+		},200);
 		/* 更新信息 */
 		update();
 	}
@@ -128,7 +128,7 @@ window.onload = function musichtml(){
 			clearInterval(real);
 			oTimer();
 			progress();
-		},500);
+		},200);
 		/* 更新信息 */
 		update();
 	}
@@ -197,7 +197,7 @@ window.onload = function musichtml(){
 		totalSecond = doubleNum(totalTime%60);
 		oTotalTime = $(".totalTime")[0];
 		oTotalTime.innerHTML = totalMinute + ":" + totalSecond;
-	},500);
+	},200);
 	/* 当前时长 */
 	var realTime = parseInt(myMusic.currentTime);
 	var realMinute = doubleNum(parseInt(realTime/60));
@@ -299,7 +299,7 @@ window.onload = function musichtml(){
 				clearInterval(real);
 				oTimer();
 				progress();
-			},500);
+			},200);
 			/* 更新信息 */
 			update();
 		}
