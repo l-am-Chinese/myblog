@@ -51,7 +51,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
                 .permitAll()
                 .antMatchers("/editor","/user").hasAnyRole("USER")
                 .antMatchers("/mymusic","/game").hasAnyRole("ADMIN")
-                .antMatchers("/superadmin","/myheart","/today","/yesterday").hasAnyRole("SUPERADMIN")
+                .antMatchers("/superadmin","/druid").hasAnyRole("SUPERADMIN")
                 .and()
                 .formLogin().loginPage("/login").failureUrl("/login?error").defaultSuccessUrl("/")
                 .and()

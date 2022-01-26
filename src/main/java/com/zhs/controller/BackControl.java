@@ -47,13 +47,7 @@ public class BackControl {
     public String mymusic(){
         return "mymusic";
     }
-    /**
-     * 跳转addGit
-    @GetMapping("/addGit")
-    public String addGit(){
-        return "addGit";
-    }
-     */
+
     /**
      * 跳转我的游戏厅
      */
@@ -247,15 +241,7 @@ public class BackControl {
         return "superadmin";
     }
 
-//    @GetMapping("/yesterday")
-//    public String yesterday(){
-//        return "yesterday";
-//    }
 
-    @GetMapping("/today")
-    public String today(){
-        return "today";
-    }
 
     @GetMapping("/reward")
     public String reward(HttpServletRequest request){
