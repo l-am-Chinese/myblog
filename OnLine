@@ -10,4 +10,4 @@
     1.数据库密码、redis密码（resources\application.properties）
     2.druid监控账户密码（resources\application.properties）
     3.阿里云密钥（resources\application.properties）
-    4.阿里云短信发送模板（java\com\zhy\controller\GetPhoneCodeControl.java）
+    4.阿里云短信发送模板（java\com\zhs\controller\GetPhoneCodeControl.java）
