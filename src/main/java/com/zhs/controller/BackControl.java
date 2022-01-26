@@ -49,11 +49,11 @@ public class BackControl {
     }
     /**
      * 跳转addGit
-     */
     @GetMapping("/addGit")
     public String addGit(){
         return "addGit";
     }
+     */
     /**
      * 跳转我的游戏厅
      */
