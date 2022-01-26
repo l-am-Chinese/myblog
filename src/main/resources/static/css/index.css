@@ -199,7 +199,7 @@
     border-radius: 10px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
-.myStory .bg-myStory,.bg-myGirl,.bg-myHeart{
+.myStory .bg-myStory,.bg-myMusic,.bg-myGame{
     font-size: 26px;
     text-align: center;
     height: 60px;
@@ -417,21 +417,21 @@ a.tag:hover{
     text-decoration: none;
     color: #0a0a0a;
 }
-.bg-myGirl a:hover{
+.bg-myMusic a:hover{
     text-decoration: none;
     color: #0a0a0a;
 }
-.bg-myHeart a:hover{
+.bg-myGame a:hover{
     text-decoration: none;
     color: #0a0a0a;
 }
 .bg-myStory{
     background:repeating-linear-gradient(45deg, #74ccff, #74ccff 15px, #bba985 0, #bba985 30px);
 }
-.bg-myGirl{
+.bg-myMusic{
     background:repeating-linear-gradient(45deg, #ffbb33, #fb3 15px, #58a 0,#58a 30px);
 }
-.bg-myHeart{
+.bg-myGame{
     background:repeating-linear-gradient(45deg, #8275fd, #8275fd 15px, #fd940c 0, #fd940c 30px);
 }
 /*background:#eee;*/
