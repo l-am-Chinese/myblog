@@ -48,6 +48,7 @@ public class AliYunOSSClientUtil {
      */
     public static OSSClient getOSSClient(){
         return new OSSClient(ENDPOINT,ACCESS_KEY_ID, ACCESS_KEY_SECRET);
+
     }
 
     /**

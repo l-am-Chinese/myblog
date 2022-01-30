@@ -2,7 +2,7 @@
 !.mvn/wrapper/maven-wrapper.jar
 *.pfx
 *.properties
-
+my-blog-logs
 ### STS ###
 .apt_generated
 .classpath
