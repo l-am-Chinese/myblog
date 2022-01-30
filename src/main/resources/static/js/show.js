@@ -41,7 +41,7 @@
             '<div class="show-weixin">' +
             '<p><i class="weiXinQuoteLeft am-icon-quote-left "></i></p><br>' +
             '<p class="show-weixin-pic">' +
-            '<img src="img/weixin.jpg">' +
+            '<img src="https://zhs-myblog.oss-cn-shanghai.aliyuncs.com/static/img/weixin.jpg">' +
             '</p>' +
             '<p class="show-weixin-pic">欢迎添加我的微信号：wxid_lwt7in2txidh22</p>' +
             '<p><i class="weiXinQuoteRight am-icon-quote-right "></i></p>' +

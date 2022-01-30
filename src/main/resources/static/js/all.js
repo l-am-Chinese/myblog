@@ -142,7 +142,7 @@ $('#sidebar_toggle').click(function () {
         error:function () {
         }
     });
-    $('.weixinPublic').attr("src","img/weixin.jpg");
+    $('.weixinPublic').attr("src","https://zhs-myblog.oss-cn-shanghai.aliyuncs.com/static/img/weixin.jpg");
 });
 
 //获得登录用户未读消息

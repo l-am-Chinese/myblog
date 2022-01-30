@@ -308,8 +308,8 @@
 
     //点击扫描二维码时获取二维码图片
     $('.myCardBtn').click(function () {
-        $('.qq_code').attr("src","img/qq.jpg");
-        $('.weixin_code').attr("src","img/weixin.jpg");
+        $('.qq_code').attr("src","https://zhs-myblog.oss-cn-shanghai.aliyuncs.com/static/img/qq.jpg");
+        $('.weixin_code').attr("src","https://zhs-myblog.oss-cn-shanghai.aliyuncs.com/static/img/weixin.jpg");
     });
 
     ajaxFirst(1);
