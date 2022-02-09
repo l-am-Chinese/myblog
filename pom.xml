@@ -185,6 +185,7 @@
 			</plugin>
 		</plugins>
 		<finalName>myblog</finalName>
+    <!--打包名字       ↑-->
 	</build>
 
 

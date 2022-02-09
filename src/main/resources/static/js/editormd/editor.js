@@ -281,7 +281,7 @@
                     } else if(data['status'] == 103) {
                         alert(data['message'] + " 发表文章失败")
                     } else if(data['status'] == 204) {
-                        alert("发布失败了，都叫你不要发布了，不听嘛")
+                        alert("发布失败了，因为你不是管理员")
                     } else {
                         $('#my-alert').modal('close');
                         window.removeEventListener('beforeunload',fnClose);
