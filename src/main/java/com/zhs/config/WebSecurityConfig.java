@@ -42,7 +42,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
                 }
             });
     }
-
+//mystory 还未有button 跳转
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
@@ -51,7 +51,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
                 .permitAll()
                 .antMatchers("/editor","/user").hasAnyRole("USER")
                 .antMatchers("/mymusic","/game").hasAnyRole("ADMIN")
-                .antMatchers("/superadmin","/druid").hasAnyRole("SUPERADMIN")
+                .antMatchers("/superadmin","/druid","/upload").hasAnyRole("SUPERADMIN")
                 .and()
                 .formLogin().loginPage("/login").failureUrl("/login?error").defaultSuccessUrl("/")
                 .and()

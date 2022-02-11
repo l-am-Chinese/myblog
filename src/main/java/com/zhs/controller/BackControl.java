@@ -137,7 +137,13 @@ public class BackControl {
         request.getSession().removeAttribute("lastUrl");
         return "user";
     }
-
+    /**
+    * 跳转到用户页
+    */
+    @GetMapping("/upload")
+    public String upload(HttpServletRequest request){
+        return "upload";
+    }
     /**
      * 跳转到文章编辑页
      */

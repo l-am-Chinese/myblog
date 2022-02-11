@@ -1237,7 +1237,9 @@ function mat4(m) {
 				0, s.y, 0, 0,
 				0, 0, 1, 0,
 				0, 0, 0, 1,
-			]));
+			]
+			)
+			);
 		},
 
 		translate(p) {
@@ -1246,7 +1248,9 @@ function mat4(m) {
 				0, 1, 0, 0,
 				0, 0, 1, 0,
 				p.x, p.y, 0, 1,
-			]));
+			]
+			)
+			);
 		},
 
 		rotateX(a) {
@@ -1255,7 +1259,9 @@ function mat4(m) {
 				0, Math.cos(a), -Math.sin(a), 0,
 				0, Math.sin(a), Math.cos(a), 0,
 				0, 0, 0, 1,
-			]));
+			]
+			)
+			);
 		},
 
 		rotateY(a) {
@@ -1264,7 +1270,9 @@ function mat4(m) {
 				0, 1, 0, 0,
 				Math.sin(a), 0, Math.cos(a), 0,
 				0, 0, 0, 1,
-			]));
+			]
+			)
+			);
 		},
 
 		rotateZ(a) {
@@ -1273,7 +1281,9 @@ function mat4(m) {
 				Math.sin(a), Math.cos(a), 0, 0,
 				0, 0, 1, 0,
 				0, 0, 0, 1,
-			]));
+			]
+			)
+			);
 		},
 
 		multVec2(p) {
@@ -2994,4 +3004,5 @@ k.import = () => {
 
 window.kaboom = k;
 
-})();
+}
+)();

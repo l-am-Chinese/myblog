@@ -1,8 +1,6 @@
 (() => {
 
-if (!kaboom) {
-	console.error("oh no kaboom not found!");
-}
+
 
 const k = kaboom;
 
@@ -61,4 +59,5 @@ function addLevel(arr, conf = {}) {
 k.addMap = addLevel;
 k.addLevel = addLevel;
 
-})();
+})
+();

@@ -1,8 +1,6 @@
 (() => {
 
-if (!kaboom) {
-	console.error("oh no kaboom not found!");
-}
+
 
 const k = kaboom;
 
@@ -42,4 +40,5 @@ k.addSprite = addSprite;
 k.addText = addText;
 k.addRect = addRect;
 
-})();
+})
+();
